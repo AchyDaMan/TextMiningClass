@@ -1,0 +1,17 @@
+{
+    "name": "Python 3",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "mutantdino.resourcemonitor"
+      
+    ],
+    "runArgs": [
+        "--mount=type=bind,source=${localWorkspaceFolder},target=/workspace",
+        "pip install nltk spacy gensim textblob"
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python"
+    }
+}
