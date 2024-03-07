@@ -1,0 +1,12 @@
+{
+    "name": "Python 3",
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "mutantdino.resourcemonitor"
+    ],
+    "postCreateCommand": "pip install nltk spacy gensim textblob"
+}
