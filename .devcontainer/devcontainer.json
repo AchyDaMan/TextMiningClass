@@ -8,5 +8,6 @@
         "ms-toolsai.jupyter",
         "mutantdino.resourcemonitor"
     ],
-    "postCreateCommand": "pip install nltk spacy gensim textblob", "python -m spacy download en_core_web_sm"
+    "postCreateCommand": ["pip install nltk spacy gensim textblob", "python -m spacy download en_core_web_sm"]
+
 }
