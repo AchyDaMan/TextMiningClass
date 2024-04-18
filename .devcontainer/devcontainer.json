@@ -8,7 +8,7 @@
         "ms-toolsai.jupyter",
         "mutantdino.resourcemonitor"
     ],
-    "postCreateCommand": ["pip install nltk spacy gensim textblob keras tensorflow sentece-transformers", 
+    "postCreateCommand": ["pip install nltk spacy  textblob keras tensorflow sentence-transformers datasets scikit-learn gensim lazypredict numpy", 
     "python -m spacy download en_core_web_sm"]
 
 }
