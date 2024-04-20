@@ -1,2 +1,5 @@
 .vec
 .zip
+.npy
+Group Project/X_bert.npy
+Group Project/X_test_bert.npy
